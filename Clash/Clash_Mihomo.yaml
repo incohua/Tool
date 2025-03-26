@@ -270,7 +270,6 @@ rules:
 - RULE-SET,Claude,AI-Rule
 - RULE-SET,Microsoft,Microsoft
 - RULE-SET,Proxy,Proxy
-- DOMAIN-SUFFIX,xujc.com,DIRECT
 - RULE-SET,China,DIRECT
 - RULE-SET,LAN,DIRECT
 - GEOIP,CN,DIRECT
