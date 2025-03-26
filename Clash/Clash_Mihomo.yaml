@@ -136,7 +136,7 @@ proxy-groups:
 - { name: Gamer, type: select, include-all: true, filter: *FilterGame, proxies: [ DIRECT, Proxy, 自建节点 ], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png' }
 - { name: Microsoft, type: select, proxies: [ DIRECT, Proxy, 自建节点, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇬🇧 英国节点, 🇫🇷 法国节点, 🇩🇪 德国节点 ], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png' }
 - { name: GlobalMedia, type: select, proxies: [ Proxy, 自建节点, 🇭🇰 香港节点, 🇹🇼 台湾节点, 🇯🇵 日本节点, 🇰🇷 韩国节点, 🇸🇬 新加坡节点, 🇺🇸 美国节点, 🇬🇧 英国节点, 🇫🇷 法国节点, 🇩🇪 德国节点 ], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png' }
-- { name: 自建节点, type: select, use: [ Incohua-Node ], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png' }
+- { name: 自建节点, type: select, use: [ Proxy-Node ], icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Airport.png' }
 - { name: 🇭🇰 香港节点, <<: *URLTest, filter: *FilterHK, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png' }
 - { name: 🇹🇼 台湾节点, <<: *Select, filter: *FilterTW, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png' }
 - { name: 🇯🇵 日本节点, <<: *FallBack, filter: *FilterJP, icon: 'https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png' }
